@@ -27,7 +27,7 @@ function setupPage() {
     document.body.innerHTML  = "<!DOCTYPE html><head><title>Decision Maker 2000</title></head><body></body></html>";
     document.body.setAttribute("style", "background: url(\"cool-background.jpg\")");
     var div = document.createElement("div");
-    div.setAttribute("style", "max-width: 720px; margin: 0 auto; font-size: 1.5rem; backround-image: url\(\"cool-background.jpg\"})");
+    div.setAttribute("style", "max-width: 720px; margin: 0 auto; font-size: 1.5rem;");
 //    div.style="max-width: 720px; margin: 0 auto; font-size: 1.5rem;";
     var decisionPara = document.createElement("h1");
     var decisionDiv = document.createElement("div");
