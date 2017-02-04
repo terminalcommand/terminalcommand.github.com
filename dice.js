@@ -26,13 +26,15 @@ var results = [];
 function setupPage() {
     document.body.innerHTML  = "<!DOCTYPE html><head><title>Decision Maker 2000</title></head><body></body></html>";
     var div = document.createElement("div");
-    div.style="max-width: 720px; margin: 0 auto; font-size: 1.5rem;";
+    div.setAttribute("style", "max-width: 720px; margin: 0 auto; font-size: 1.5rem;");
+//    div.style="max-width: 720px; margin: 0 auto; font-size: 1.5rem;";
     var decisionPara = document.createElement("h1");
     var decisionDiv = document.createElement("div");
     decisionDiv.id="results";
     decisionDiv.style="line-height:25rem;";
     var node = document.createTextNode("My decision is: ");
-    decisionPara.style = "color: turquoise;";
+    //    decisionPara.style = "color: turquoise;";
+    decisionPara.setAttribute("style", "color: turquoise;");
     decisionPara.appendChild(node);
     decisionPara.appendChild(decisionDiv);
     var button = document.createElement("input");
