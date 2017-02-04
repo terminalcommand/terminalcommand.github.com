@@ -42,7 +42,6 @@ function setupPage() {
     div.appendChild(decisionPara);
     div.appendChild(button);
     document.body.appendChild(div);
-    showCode();
 }
 
 function createText(message) {
