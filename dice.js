@@ -42,6 +42,7 @@ function setupPage() {
     div.appendChild(decisionPara);
     div.appendChild(button);
     document.body.appendChild(div);
+    button.focus();
 }
 
 function createText(message) {
