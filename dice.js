@@ -25,8 +25,9 @@ var results = [];
 
 function setupPage() {
     document.body.innerHTML  = "<!DOCTYPE html><head><title>Decision Maker 2000</title></head><body></body></html>";
+    document.body.setAttribute("style", "background: url(\"cool-background.jpg\")");
     var div = document.createElement("div");
-    div.setAttribute("style", "max-width: 720px; margin: 0 auto; font-size: 1.5rem;");
+    div.setAttribute("style", "max-width: 720px; margin: 0 auto; font-size: 1.5rem; backround-image: url\(\"cool-background.jpg\"})");
 //    div.style="max-width: 720px; margin: 0 auto; font-size: 1.5rem;";
     var decisionPara = document.createElement("h1");
     var decisionDiv = document.createElement("div");
@@ -41,6 +42,7 @@ function setupPage() {
     button.type = "button";
     button.value ="Let the Computer decide";
     button.onclick = decide;
+    button.setAttribute("style", "background-color: #DB2828; color: #FFF; cursor: pointer; padding: .78571429em 1.5em; font-weight: 700; line-height: 1rem; text-align: center; border-radius: .28571429rem; transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease; outline: 0; border: 0;");
     div.appendChild(decisionPara);
     div.appendChild(button);
     document.body.appendChild(div);
