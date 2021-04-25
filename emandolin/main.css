@@ -1,0 +1,32 @@
+body {
+    background:ghostwhite;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#fretboard {
+    background-color: #2b2200;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 0.5em solid black;
+  }
+  
+  #fretboard p {
+    padding: 0.5em;
+    height: 1.5em;
+    border: 0.5em solid darkred;
+    background: grey;
+    opacity: 0.8;
+    text-align:center;
+    }
+
+   #fretboard p.zerofret {
+       width: 1.5rem;
+       border-radius: 50%;
+        }
+  
+  #fretboard p:hover  {
+    background: yellow;
+    }
+
+    
