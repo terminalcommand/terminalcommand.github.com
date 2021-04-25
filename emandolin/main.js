@@ -18,7 +18,7 @@ function createClickListener() {
 function blinkFret(id) {
     var fret = document.getElementById(id);
     fret.style.backgroundColor="yellow";
-    setTimeout(function(){fret.style.backgroundColor="grey"},200);
+    setTimeout(function(){fret.style.backgroundColor=""},200);
 }
 
 function registerKeys(event) {
